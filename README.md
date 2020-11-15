@@ -6,7 +6,7 @@ Binary Build by GFOXSH
 https://4pda.ru/forum/index.php?showtopic=992239&st=60#entry96395597
 
 ## How To Compiling Mesa from Source
-- Example Mesa3D 11.2.2 Build on Ubuntu 14.04 
+
     sudo apt-get build-dep mesa
     sudo apt-get install scons flex bison python-mako llvm
     wget https://mesa.freedesktop.org/archive/older-versions/11.x/11.2.2/mesa-11.2.2.tar.xz
