@@ -9,6 +9,10 @@ Binary Build by GFOXSH
 
 https://4pda.ru/forum/index.php?showtopic=992239&st=60#entry96395597
 
+Binary Build by Andrômeda (Comment Section)
+
+https://youtu.be/8irT01SMc2Q
+
 ## How To Compiling Mesa from Source
     #Example Mesa3D 11.2.2 Build on Ubuntu 14.04
     sudo apt-get build-dep mesa
