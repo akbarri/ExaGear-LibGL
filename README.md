@@ -26,3 +26,4 @@ https://4pda.ru/forum/index.php?showtopic=992239&st=60#entry96395597
 
 ## Credits
 - [4PDA developers](https://4pda.ru/forum/index.php?showtopic=804309&st=6840#entry96039823) (GFOXSH)
+- [Andrômeda](https://www.youtube.com/channel/UC_RTNrFpw0DfjKP__CAoEnw)
