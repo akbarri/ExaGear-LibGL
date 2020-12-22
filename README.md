@@ -22,7 +22,7 @@ https://youtu.be/8irT01SMc2Q
     wget https://mesa.freedesktop.org/archive/older-versions/11.x/11.2.2/mesa-11.2.2.tar.xz
     tar -xf mesa-11.2.2.tar.xz
     cd mesa-11.2.2
-    scons build = release llvm = yes libgl-xlib
+    scons build=release llvm=yes libgl-xlib
 
 ## How To Install LLVM 11
     wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add -
