@@ -16,13 +16,15 @@ Binary Build by Andrômeda (Comment Section)
 https://youtu.be/8irT01SMc2Q
 
 ## How To Compiling Mesa from Source
-    #Example Mesa3D 11.2.2 Build on Ubuntu 14.04
+    #Example Mesa3D 20.3.1 Build on Ubuntu 18.04
     sudo apt-get build-dep mesa
-    sudo apt-get install scons flex bison python-mako llvm
-    wget https://mesa.freedesktop.org/archive/older-versions/11.x/11.2.2/mesa-11.2.2.tar.xz
-    tar -xf mesa-11.2.2.tar.xz
-    cd mesa-11.2.2
-    scons build=release llvm=yes libgl-xlib
+    sudo apt-get install mesa-utils
+    sudo apt-get install scons flex bison python-mako
+    wget https://archive.mesa3d.org/mesa-20.3.1.tar.xz
+    tar -xf mesa-20.3.1.tar.xz
+    cd mesa-20.3.1
+    scons force_scons=1 build=release llvm=yes libgl-xlib
+
 
 ## How To Install LLVM 11
     wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add -
