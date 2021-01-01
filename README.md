@@ -31,6 +31,13 @@ https://youtu.be/8irT01SMc2Q
     sudo add-apt-repository 'deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-11 main'
     apt-get install llvm-11-runtime
 
+## Source Code Fix
+    src/gallium/drivers/llvmpipe/lp_tex_sample.h
+     LP_USE_TEXTURE_CACHE Replace 0 with 1;
+     
+    src/mesa/main/context.c
+     "MakeCurrent: incompatible visuals for context and drawbuffer" comment on return GL_FALSE 
+     "MakeCurrent: incompatible visuals for context and readbuffer" comment on return GL_FALSE
 
 ## Credits
 - [4PDA developers](https://4pda.ru/forum/index.php?showtopic=804309&st=6840#entry96039823) (GFOXSH)
