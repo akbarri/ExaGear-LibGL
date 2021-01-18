@@ -29,11 +29,13 @@ https://youtu.be/8irT01SMc2Q
 ## How To Install LLVM 11
     wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add -
     sudo add-apt-repository 'deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-11 main'
-    apt-get install llvm-11-runtime
+    sudo apt-get update
+    sudo apt-get install llvm-11-runtime
     
     #Alternative for Ubuntu Bionic+
     sudo add-apt-repository ppa:kisak/turtle
-    apt-get install llvm-11-runtime
+    sudo apt-get update 
+    sudo apt-get install llvm-11-runtime
 
 ## Source Code Fix
     src/gallium/drivers/llvmpipe/lp_tex_sample.h
